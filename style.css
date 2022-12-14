@@ -1,0 +1,221 @@
+/* first -section start */
+.body{
+   
+    padding: 0;
+    margin: 0;
+   
+}
+
+.main{
+      
+    font-family: "Poppins",sans-serif;
+}
+.maincontent{
+    display: flex;
+}
+.left-side{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+
+.text{
+    font-size: 3rem;   
+}
+.color-title{
+    color: #EA047E;
+}
+.sub-title{
+    font-size: 1rem;
+}
+.left-side p{
+    width: 500px;
+    color: rgba(12, 1, 1, 0.699);
+    text-align: justify;
+}
+.right-side{
+    margin-top: 4rem;
+    margin-left: 12rem; 
+    width: 50%;
+}
+.right-side img{
+   width: 80%;
+
+}
+.button-1{
+text-decoration: none;
+font-size: 1.2rem;
+background-image: linear-gradient(to right,#EA047E,#FF7000);
+color: white;
+border-radius: 5px;
+padding: 10px 30px;
+}
+/* first _section end */
+
+/* second-secion start */
+
+.second-left-side{
+    margin-top: 4rem;
+    margin-left: 12rem; 
+    width: 50%;
+}
+.button-2{
+    text-decoration: none;
+    font-size: 1rem;
+    background-image: linear-gradient(to right,#407ff4,#e6d30a);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+ 
+
+/* second-secion end */
+
+/* Experiences tag start */
+
+.main-Experiences{
+    font-size: 3rem;
+    color: green;
+}
+.experience-main-div{
+    margin-top: 50px;
+    display: flex;
+}
+.left-side-experience{
+ margin: 0 40px 0 80px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+padding: 20px 20px;
+border-left: 5px solid yellow;
+border-top-right-radius: 50px;
+
+}
+.right-side-experience{
+    margin: 0 80px 0 40px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:20px 20px;
+    border-left: 5px solid rgb(8, 84, 8);
+    border-top-right-radius: 50px;
+}
+.experience-title{
+    font-size: 2.2rem;
+}
+.experience-sub-title{
+color: #FF7000;
+font-size: 1.2rem;
+}
+.experience-p{
+    color: rgba(13, 13, 13, 0.505);
+}
+
+
+/* Experiences tag end*/
+/* hobbies start */
+
+.main-hobbies{
+    font-size: 3rem;
+   text-align: center;
+  color: #852999;
+  
+   
+}
+.hobbies-main-div{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.left-side-hobbies-1{
+ margin: 0 40px 0 40px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+padding: 20px 20px;
+border: 5px solid yellow;
+border-radius: 20px;
+width: 200px;
+ height: 200px;
+ margin-left: 10rem;
+ text-align: center;
+}
+.left-side-hobbies-2{
+    margin: 0 40px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 20px;
+    border: 5px solid rgb(79, 16, 215);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.left-side-hobbies-3{
+    margin: 0 40px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 20px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    height: 200px;
+}
+.hobbies-main-div-2{
+    display: flex;
+    margin-top: 50px; 
+    
+}
+.right-side-hobbies-1{
+    margin: 0 40px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 20px;
+    border: 5px solid rgb(45, 15, 213);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 10rem;
+    text-align: center;
+}
+.right-side-hobbies-2{
+    margin: 0 40px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 20px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.right-side-hobbies-3{
+    margin: 0 40px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 20px;
+    border: 5px solid rgb(58, 12, 225);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+/* hobbies end */
+/* idol person first*/
+.idol p{
+color: black;
+text-align: center;
+
+
+}
+.idol h4{
+
+   color:#1C315E; 
+}
+.idol h1{
+    text-align: center;
+    margin-top: 5rem;
+    color: #FF7000;
+}
+
+/* idol person last*/
+
+/* footer start */
+.footer{
+    color: rgba(0, 0, 0, 0.676);
+    text-align: center;
+  
+    padding: 20px 20px;
+    height: 100%;
+}
+/* footer end */
