@@ -118,18 +118,88 @@ body {
     grid-template-columns: auto auto;
     gap: 40px;
 }
-.projects img{
+
+.projects img {
     width: 100%;
 }
 
-.project-title {
+.section-title {
     font-size: 40px;
-    color:var(--primary-font-color) ;
+    color: var(--primary-font-color);
     font-weight: bold;
     margin: 40px;
     margin-inline-start: auto;
 }
 
+.btn {
+    padding: 20px 50px;
+    background-color: var(--primary-bg);
+    color: var(--primary-font-color);
+    margin: 40px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    font-size: 20px;
+
+}
+.project-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* blogs */
+.blog-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.blogs-content{
+    color: var(--primary-font-color);
+    display: flex;
+    
+}
+.circule{
+    background-color: rgb(201, 12, 239);
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.circule-2{
+    background-color: rgb(67, 7, 163);
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.name{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.date{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.blog-img{
+    width: 300px;
+}
+.blog-btn{
+    background-color: var(--primary-font-color);
+    width: fit-content;
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.blog-title{
+    font-size: 16px;
+    color: var(--primary-font-color);
+    font-weight: 400;
+    padding: 15px;
+}
 
 /* responsive deisgn started here */
 @media only screen and (min-width:200px) and (max-width:576px) {
@@ -150,9 +220,13 @@ body {
     .profile-img img {
         width: 100%;
     }
+
     .projects {
         display: grid;
-        grid-template-columns: auto ;
-       
+        grid-template-columns: auto;
+
+    }
+    .blog-card-container{
+        flex-direction: column;
     }
 }
